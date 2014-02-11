@@ -105,17 +105,18 @@ function getClienLegoDB(number, mode){
             var rows = data['rows'];
 
 	    if(rows == undefined) {
+        /*
 		if(mode == 'dbclick'){
 		    showBrickSetInfo(number);
 		    return false;
-		} else { 
+		} else { */
 		    $('<p>No Informaion @ Clien :: Lego :: Fusion Tables</p>').appendTo(dataElement);
 		    $('<p>&nbsp;</p>').appendTo(dataElement);
 		    $('<p>Your cooperation would be greatly appreciated.</p>').appendTo(dataElement);
 		    $('<p>Do you want to be an editor? Please contact with Minuki</p>').appendTo(dataElement);
 		    $('<p>&nbsp;</p>').appendTo(dataElement);
 		    $('<p><a href="https://www.google.com/fusiontables/DataSource?docid=12430vQv6KXdKK7ZJLszGHgwZecIA4FlAC2oDJQs" target=_blank> -> Go to Fusion Tables</a></p>').appendTo(dataElement);
-		}
+		//}
 	    }
 
 
