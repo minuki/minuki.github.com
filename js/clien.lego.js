@@ -151,7 +151,8 @@ function getClienLegoDB(number, mode){
 
 		html += '<tbody>';
 		html += '<tr>';
-	        html += '<td><img alt="' + nameUS + '" src="http://www.1000steine.com/brickset/thumbs/tn_' + fullModelNumber + '_jpg.jpg"></td>';
+	        //html += '<td><img alt="' + nameUS + '" src="http://www.1000steine.com/brickset/thumbs/tn_' + fullModelNumber + '_jpg.jpg"></td>';
+	        html += '<td><img alt="' + nameUS + '" src="http://images.brickset.com/sets/small/' + fullModelNumber + '.jpg"></td>'
 	        html += '<td>' + fullModelNumber + '</td>';
 	        html += '<td>' + nameUS + "<br />" + nameKR + '</td>';
 	        html += '<td>' + pieces + '</td>';
